@@ -5,3 +5,4 @@
 - Redirect authenticated users who visit `/` to `/dashboard`.
 - Sign-in and sign-up must use Clerk's modal flow. Trigger Clerk sign-in and sign-up with modal mode; do not expose full-page authentication forms or navigation to standalone sign-in/sign-up pages.
 - Keep Clerk integration centralized through the app's existing provider and middleware.
+- Store each link's owning Clerk user ID in `links.userId`; derive it from the authenticated Clerk session when creating links.
