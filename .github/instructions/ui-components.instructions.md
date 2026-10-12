@@ -1,3 +1,7 @@
+---
+description: Read this before creating or modifying UI components in the project.
+---
+
 # UI Components Guidelines 
 
 - All UI elements in this app must use shadcn/ui components. Do not build custom UI primitives, wrappers, or one-off component files when a shadcn component already fits the need.
