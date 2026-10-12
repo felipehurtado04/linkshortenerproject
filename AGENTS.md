@@ -1,17 +1,6 @@
 # Repository Instructions
 
-This is a critical requirement: before generating any code in this repository, you MUST read the relevant individual instruction files within the `docs/` directory and use them as the source of truth for the task.
-
-These instructions apply to all work in this repository. Read the relevant topic documents in `docs/` before making changes, and follow the existing implementation where it is more specific than general guidance.
-ALWAYS refer to the relevant .md file BEFORE generating any code. This is mandatory and extremely important: do not skip this step, do not infer behavior without reading the relevant instructions, and do not generate code before checking the applicable documentation.
-
-Relevant files to review before coding:
-
-- Authentication and protected-route requirements: [docs/authentication.md](docs/authentication.md)
-- UI component standards: [docs/ui-standards.md](docs/ui-standards.md)
-
-Keep changes scoped to the request. Do not invent product behavior or claim that planned functionality already exists. When a change establishes or alters a project-wide convention, update the relevant document in `docs/` in the same change.
-
+Keep changes scoped to the request. Do not invent product behavior or claim that planned functionality already exists.
 
 <!-- BEGIN:nextjs-agent-rules -->
 

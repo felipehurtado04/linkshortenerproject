@@ -1,3 +1,7 @@
+---
+description: Read this before implementing or modifying authentication in the project.
+---
+
 # Authentication
 
 - Use Clerk for all authentication, sessions, and user identity. Do not add another authentication provider or implement a custom authentication method.
